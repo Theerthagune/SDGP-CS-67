@@ -1,0 +1,345 @@
+body {
+    background: rgba(0, 18.98, 51.62, 0.91);
+    margin: 0;
+}
+
+.second-container {
+    background: rgba(60.71, 99.84, 169.06, 0.73);
+    border-radius: 60px;
+    height: 600px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.image-box {
+    border-radius: 60px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 50px; 
+}
+
+.students {
+    border-radius: 60px;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color: white;
+}
+
+.signup-box {
+    height: 600px;
+    width: 350px;
+    margin: auto 60px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 80%; 
+    margin-bottom: 15px;
+}
+
+.signup-button {
+    background-color: #FFBE58;
+    height: 35px;
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    border: none;
+}
+
+.signup-button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.google-btn { 
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    width: 350px;
+    border: none;
+}
+
+.google-btn:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.login-link {
+    margin-top: 15px; 
+    font-size: 18px; 
+}
+
+.input-field{
+    border-radius: 60px;
+}
+
+p{
+    color: white;
+    margin-left: 60px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.separator {
+    width: 60%;
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 10px auto; 
+}
+
+.name{
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+.email{
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+.password{
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+.confirmpw{
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 120px;
+    }
+
+    .signup-box {
+      font-size: 16px;
+    }
+}
+  
+@media only screen and (max-width: 1150px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 60px;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 60px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 18px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 12px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 10px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 100px;
+      margin-left: 10px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .second-container{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 180px;
+      margin-left: 10px;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .signup-box {
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        width: 0px;
+        height: 0px;
+    }
+}
