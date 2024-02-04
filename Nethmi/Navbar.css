@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    top: 230px;
+}
+
+.NavigationBar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 95px;
+    position: fixed;
+    background: #031432;
+}
+
+.AppLogo {
+    width: 242px;
+    height: 28px;
+    left: 44px;
+    top: 34px;
+    position: absolute;
+}
+
+.SearchBar {
+    width: 320px;
+    height: 45.05px;
+    left: 740px;
+    top: 28px;
+    position: absolute;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.SearchIcon {
+    width: 35.71px;
+    height: 25.69px;
+    left: 1005px;
+    top: 41px;
+    position: absolute;
+}
+
+.SearchHere {
+    width: 208.23px;
+    height: 20px;
+    left: 700px;
+    top: 41px;
+    position: absolute;
+    text-align: center;
+    color: #A7A8AA;
+    font-size: 17px;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.SignUpButton {
+    width: 124.48px;
+    height: 45.05px;
+    left: 1100px;
+    top: 28.59px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.SignUp {
+    width: 81px;
+    height: 20px;
+    left: 21.83px;
+    top: 13.41px;
+    position: absolute;
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 17px;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.LoginButton {
+    width: 124.48px;
+    height: 45.05px;
+    left: 1250px;
+    top: 28.59px;
+    position: absolute;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.LogIn {
+    width: 79px;
+    height: 19px;
+    left: 23.32px;
+    top: 11.41px;
+    position: absolute;
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 17px;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.AboutUs {
+    width: 102px;
+    height: 31px;
+    left: 1400px;
+    top: 41px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
